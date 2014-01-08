@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    	<TextView 
+    	    android:id="@+id/help_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the introduction, Slide to go on." 
+        android:textColor="#FFFFFF" 
+    	    />
+    	
+         <ImageView
+        android:id="@+id/help_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help1"
+        android:contentDescription="help/Introduction" 
+		android:padding="10dp"
+		android:scaleType="centerInside"/>
+
+        
+
+</LinearLayout>

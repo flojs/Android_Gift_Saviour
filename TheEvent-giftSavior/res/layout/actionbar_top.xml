@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="right" >
+
+<ImageButton
+    android:id="@+id/action_add_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/actionButtonStyle"
+    android:src="@drawable/ic_action_add_person" 
+    android:contentDescription="@string/action_add_person"
+    />
+
+<ImageButton
+    android:id="@+id/action_cal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/actionButtonStyle"
+    android:src="@drawable/ic_action_go_to_today" 
+    android:contentDescription="@string/action_calendar"
+    />
+</LinearLayout> 
+
+<!--
+In the view insert the code:
+
+		actionBar.setCustomView(R.layout.actionbar_top); //load your layout
+		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME|ActionBar.DISPLAY_SHOW_CUSTOM);
+		
+To get split actionbar set in manifest:
+		android:uiOptions="splitActionBarWhenNarrow" 
+
+Problem how to receive the onclicks, not in the main activity, some contextthemewrapper..
+
+
+-->
+
+
+    
+
